@@ -1,0 +1,118 @@
+/* General card styles (default for all screens) */
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40; /* Dark background */
+  color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Center the card */
+  max-width: 100%; /* Responsive width */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Add hover effect for better user interaction */
+.custom-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Row to align image and content */
+.custom-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+/* Image column */
+.custom-col-image {
+  flex: 1;
+  max-width: 40%;
+}
+
+/* Image styling */
+.custom-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Content column */
+.custom-col-content {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Wrapper for text content */
+.content-wrapper {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+/* Title styling */
+.product-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Description styling */
+.product-description {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #adb5bd;
+}
+
+/* Wrapper for price and icon */
+.price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Price badge */
+.price-badge {
+  background-color: #ffc107;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Icon */
+.product-icon {
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+/* MEDIA QUERY FOR LARGE DEVICES */
+@media (min-width: 992px) {
+  .custom-card {
+    max-width: 70%; 
+    height: auto; 
+    padding: 0.5rem; 
+  }
+
+  .custom-row {
+    gap: 1rem; 
+  }
+
+  .custom-image {
+    max-height: 150px; 
+  }
+
+  .product-title {
+    font-size: 1.15rem; 
+  }
+
+  .product-description {
+    font-size: 0.9rem; 
+  }
+  .price-badge {
+    font-size: 1rem; 
+    padding: 0.3rem 0.8rem;
+  }
+}

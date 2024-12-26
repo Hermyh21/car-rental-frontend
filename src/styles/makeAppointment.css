@@ -1,0 +1,83 @@
+.form-input {
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+/* Overall Container */
+.container {
+    background-color: #2c2c2c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Heading Styling */
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffc107;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Label Styling */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Input Field Styling */
+  input[type="date"] {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  input[type="date"]::placeholder {
+    color: #b3b3b3;
+  }
+  
+  input[type="date"]:focus {
+    outline: none;
+    border-color: #ffc107;
+    box-shadow: 0 0 5px #ffc107;
+  }
+  
+  /* Hour Selection Buttons */
+  .btn {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-dark:hover {
+    background-color: #495057;
+  }
+  
+  
+  /* Grid for Hour Buttons */
+  .row .col-6 {
+    padding: 5px;
+  }
+  
+  .btn[aria-pressed="true"] {
+    transform: scale(1.05);
+    border: 2px solid #fff;
+  }
+  
+  .btn-custom {
+    background-color: #f0c41b;
+    color: black;
+  }

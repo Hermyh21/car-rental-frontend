@@ -1,0 +1,74 @@
+.business-hours-container {
+    margin: 40px auto;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .business-hours-container h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .tableh {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .tableh th {
+    background-color: #f0c41b;;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .tableh td {
+    background-color: transparent;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tableh tr:nth-child(even) {
+    background-color: transparent;
+  }
+  
+  .tableh tr:hover {
+    background-color: #f0c41b;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .table-bordered {
+    border: 2px solid transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .tableh th,
+    .tableh td {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .business-hours-container h2 {
+      font-size: 2rem;
+    }
+  }
+  

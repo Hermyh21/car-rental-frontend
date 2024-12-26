@@ -1,0 +1,58 @@
+.blog-slider {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .blog-slider-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .blog-slider .card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-slider .btn {
+    z-index: 10;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-slider .btn:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+  .blog-slider .card:hover img {
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  /* Hover effect for the entire card */
+  .blog-slider .card:hover {
+    transform: translateY(-10px); /* Lift the card */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .blog-slider .card {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  
+  /* Ensure card body has the same styling */
+  .blog-slider .card-body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Override card title color */
+  .blog-slider .card-title {
+    color: #000;
+  }

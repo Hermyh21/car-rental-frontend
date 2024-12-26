@@ -1,0 +1,75 @@
+.contact-page {
+    font-family: 'Arial', sans-serif;
+    /* background: #f4f4f4; */
+    min-height: 100vh;
+    padding: 50px 20px;
+    color: white;
+  }
+  .containerc {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .contact-description {
+    font-size: 1.25rem;
+    margin: 20px 0;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item i {
+    margin-right: 10px;
+    color: #f0c41b; /* You can change the icon color here */
+  }
+  
+  .contact-item strong {
+    font-weight: bold;
+  }
+  
+  .contact-item span {
+    color: #555;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-custom {
+    background-color: #f0c41b;
+    color: black;
+  }
+  
+  /* Default styles for the image */
+.bottom-right-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  display: none; /* Hidden by default */
+}

@@ -1,0 +1,29 @@
+.carousel-container {
+  position: relative;
+  max-width: 90%; 
+  margin: 80px auto; 
+  padding: 0 15px; 
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the full image is visible */
+}
+
+.multi-image-slide {
+  display: flex;
+  justify-content: center;
+  gap: 2%; /* Scales better on different screens */
+}
+
+.multi-image {
+  flex: 1;
+  max-width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+

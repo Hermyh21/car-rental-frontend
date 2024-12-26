@@ -1,0 +1,29 @@
+.service-item {
+    background-color: #222;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #f0c41b;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+  }
+  
